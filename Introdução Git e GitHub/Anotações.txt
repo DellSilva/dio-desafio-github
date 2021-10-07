@@ -1,0 +1,70 @@
+
+comandos Git
+
+https://comandosgit.github.io/
+
+git clone [link do repositório]- 
+
+git status - 
+
+git add . - 
+
+git add -A - 
+
+git commit -m "comentário" -
+
+git push origin main -
+
+git config –list
+ 
+git remote add origin (link do github)
+
+git remote -v (lista de repositorios upado no github)
+
+git push origin master (enviar)
+
+git pull origin master (puxar)
+
+
+
+ssh git
+
+ssh-keygen -t ed25519 -C e-mail@e-mail (criar ssh)
+
+cat id_ed25519.pub (mostrar id publica)
+
+eval $(ssh-agent -s) (criar agente)
+
+ssh-add id_ed25519 (entregar chave para o agente)
+
+git clone “caminho ssh” (baixar o repositório)
+
+
+Windows
+- cd
+- dir
+- mkdir
+- del / rmdir
+cd /
+cd Windows (entra)
+cd .. (volta)
+cls (limpar) 
+Tab (autocompletar)
+mkdir (criar pasta)
+del (deleta os arquivos)
+rmdir (delete pasta)
+flag do rmdir /S /Q
+flag ls -a (lista as pastas ocultas)
+
+
+Unix
+- cd
+- ls
+- mkdir
+- rm –rf
+cd /
+cd etc (entra)
+cd .. (volta)
+clear (limpar) = ctrl+l
+mkdir (criar pasta)
+
